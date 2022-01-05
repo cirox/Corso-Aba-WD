@@ -53,6 +53,7 @@ main section.hero h1 {
     text-align: center;
     margin: 0;
     font-size: 70px;
+    font-weight: normal;
 }
 
 main section.cards {

@@ -1,7 +1,11 @@
-## Corso Web Design
+![](https://raw.githubusercontent.com/cirox/Corso-Aba-WD/main/cover.png)
 
 ### Info per il corso 
-Su questa repositary trovate i file visti durante le lezioni.
+Su questo spazio trovate i file visti durante le lezioni.
+
+Anteprima delle prove:
+* [01-prima-pagina-web](https://cirox.github.io/Corso-Aba-WD/01-prima-pagina-web/)
+* [02-esempio html-css](https://cirox.github.io/Corso-Aba-WD/02-esempio%20html-css/)
 
 ***
 

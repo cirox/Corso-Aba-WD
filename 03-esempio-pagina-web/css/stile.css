@@ -90,11 +90,15 @@ main div.card p {
 }
 
 footer {
-    border-top:1px solid #ccc;
+    
     text-align: center;
-    padding: 40px 20px;
+    padding: 0;
 }
 
 footer p {
+    border-top:1px solid #ccc;
     margin: 0;
+    padding: 20px 0;
+    font-size: 14px;
+    color:#444
 }

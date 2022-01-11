@@ -9,6 +9,10 @@ img {
     height: auto;
 }
 
+p, ul, ol {
+    font-family: 'Bespoke Serif', Georgia, 'Times New Roman', Times, serif;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -60,7 +64,7 @@ section.hero-2 {
 section.hero h1, section.hero-2 h1 {
     margin: 0;
     padding: 40px 0;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 main {
@@ -98,8 +102,9 @@ main div.card p {
     font-size: 14px;
 }
 
-main div p {
-    font-family: 'Bespoke Serif', Georgia, 'Times New Roman', Times, serif;
+main div.bio h2 {
+    padding-right: 80px;
+
 }
 
 main div.bio p {
@@ -112,6 +117,7 @@ main div.bio p {
 main div.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:20px;
 }
 
 footer {
@@ -125,4 +131,51 @@ footer p {
     padding: 20px 0;
     font-size: 14px;
     color:#444
+}
+
+h2 span {
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #666;
+
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    color: #666;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+@media (min-width:400px) {
+    body {
+        background: chartreuse;
+    }
+
+}
+
+@media (min-width:600px) {
+    body {
+        background: #ccc;
+    }
+
+   section.hero h1, section.hero-2 h1 {
+        font-size: 60px;
+   }
+    
+}
+
+@media (min-width:1200px) {
+    body {
+        background: yellow;
+    }
+    main div.card.focus {
+        grid-column: span 2;
+    }
 }

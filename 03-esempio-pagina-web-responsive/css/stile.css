@@ -51,7 +51,7 @@ header li {
 }
 
 section.hero {
-    background: #ccc;
+    background:rgba(0,0,0,0.15);
     text-align: center;
 }
 
@@ -63,7 +63,7 @@ section.hero-2 {
 
 section.hero h1, section.hero-2 h1 {
     margin: 0;
-    padding: 40px 0;
+    padding: 40px 10px;
     font-size: 40px;
 }
 

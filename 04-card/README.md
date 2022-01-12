@@ -1,13 +1,4 @@
-![](https://raw.githubusercontent.com/cirox/Corso-Aba-WD/main/cover.png)
+![](https://github.com/cirox/Corso-Aba-WD/blob/main/04-card/Esercizio-Card.png)
 
-### Info per il corso 
-Su questo spazio trovate i file visti durante le lezioni.
-
-Anteprima delle prove:
-* [01-prima-pagina-web](https://cirox.github.io/Corso-Aba-WD/01-prima-pagina-web/)
-* [02-esempio-html-css](https://cirox.github.io/Corso-Aba-WD/02-esempio-html-css/)
-* [03-esempio-pagina-web-responsive](https://cirox.github.io/Corso-Aba-WD/03-esempio-pagina-web-responsive)
-
-***
-
-###### Info: Spazio dedicato al corso di Web Design presso l'Accademia di Belle Arti di Catania.
+### Info esercizio
+Su [Figma](https://github.com/cirox/Corso-Aba-WD/blob/main/04-card/Esercizio-Card.png) trovate il progetto grafico delle card da produrre in HTML-CSS.

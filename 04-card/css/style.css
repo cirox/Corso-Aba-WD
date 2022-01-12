@@ -1,7 +1,7 @@
 :root {
-    --color-1: #5D001C;
-    --color-2: #181145;
-    --color-3: #504D1C;
+    --color-1: #016701;
+    --color-2: #826292;
+    --color-3: #5D001C;
     --font-base: "PT Serif", serif;
     --font-h: "Inter", sans-serif;
 }
@@ -22,15 +22,7 @@ body,h1,h2,h3,h4,h5,h6,p,ul,li,ol {
 }
 
 main {
-<<<<<<< HEAD
-<<<<<<< HEAD
     max-width: 1100px;
-=======
-    max-width: 800px;
->>>>>>> parent of f8f233c (Up)
-=======
-    max-width: 800px;
->>>>>>> parent of f8f233c (Up)
     margin: 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

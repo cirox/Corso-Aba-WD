@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/prova.css">
+    <script>
+        function myFunction() {
+            var element = document.getElementById("myDIV");
+            element.classList.toggle("mystyle");
+          }
+    </script>
+
+<script>
+  var moreInfo = document.getElementById("moreInfo");
+  var myDIV = document.getElementById("myDIV");
+  
+  moreInfo.addEventListener("click", function(){
+      morePlan1.classList.toggle("hidden");
+
+  });
+  
+</script>
+
+</head>
+<body>
+    <button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+  This is a DIV element.
+</div>
+
+    
+</body>
+</html>

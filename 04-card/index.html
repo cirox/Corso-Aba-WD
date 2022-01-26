@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+      
 </head>
 
 <body>
     <main>
         <div class="card color-1">
-            <img src="immagini/typography.jpg" alt="Descrizione">
+            <a href="#" data-fancybox="gallery" data-src="immagini/uno.jpg">
+                <img src="immagini/uno.jpg" alt="Descrizione">
+            </a>
             <h5>Tipografia</h5>
             <div class="text">
                 <h2>Camilo Huinca</h2>
@@ -31,7 +33,9 @@
             </div>
         </div>
         <div class="card color-2">
-            <img src="immagini/3d.jpg" alt="Descrizione">
+            <a href="#" data-fancybox="gallery" data-src="immagini/due.jpg">
+                <img src="immagini/due.jpg" alt="Descrizione">
+            </a>
             <h5>3D</h5>
             <div class="text">
                 <h2>Camilo Huinca</h2>
@@ -45,7 +49,9 @@
             </div>
         </div>
         <div class="card color-3">
-            <img src="immagini/tre.jpg" alt="Descrizione">
+            <a href="#" data-fancybox="gallery" data-src="immagini/tre.jpg">
+                <img src="immagini/tre.jpg" alt="Descrizione">
+            </a>
             <h5>Fotografia</h5>
             <div class="text">
                 <h2>Camilo Huinca</h2>
@@ -59,6 +65,9 @@
             </div>
         </div>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
 </body>
 
 </html>
